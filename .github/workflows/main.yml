@@ -1,5 +1,8 @@
 name: JFrog OIDC Test
 
+on:
+  workflow_dispatch:   # Required trigger (manual run)
+
 permissions:
   id-token: write
   contents: read
