@@ -28,4 +28,4 @@ jobs:
           oidc-provider-name: 'amrutha-oidc-config-testing'
 
       - name: Upload artifact
-        run: jf rt upload "dist/*.zip" my-repo/
+        run: jf rt upload "dist/*.zip" amrutha-generic-local/
